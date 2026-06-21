@@ -5,3 +5,13 @@ scikit-learn
 matplotlib
 transformers
 torch
+xgboost
+joblib
+ipykernel
+gensim
+pyLDAvis
+wordcloud
+matplotlib
+networkx
+plotly
+google-genai

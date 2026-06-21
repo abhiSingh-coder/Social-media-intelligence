@@ -2,6 +2,7 @@ import streamlit as st
 from core.auth import require_login
 from core.preprocessing import load_dataset
 from core.hashtag_analysis import get_top_hashtags, get_hashtag_cooccurrence
+from components.keyword_network_graph import render_keyword_network
 
 require_login()
 
@@ -25,3 +26,6 @@ if cooccurrence.empty:
     st.info("No co-occurring hashtag pairs found in this sample.")
 else:
     st.dataframe(cooccurrence)
+
+    st.subheader("Keyword Network Graph")
+    render_keyword_network(cooccurrence)
