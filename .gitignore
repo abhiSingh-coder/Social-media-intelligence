@@ -1,0 +1,56 @@
+# Virtual environment
+smienv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.local
+*.key
+
+# Data (datasets can be large — don't commit raw/processed data)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models (can be large binary files)
+trained_models/*.pkl
+trained_models/*.joblib
+trained_models/*.pt
+trained_models/*.h5
+!trained_models/.gitkeep
+
+# Hugging Face model cache (if downloaded locally instead of system cache)
+.cache/
+huggingface_cache/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+*.doc
