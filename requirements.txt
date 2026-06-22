@@ -15,4 +15,4 @@ matplotlib
 networkx
 plotly
 google-genai
-gensim
+gensim==4.3.3
