@@ -8,6 +8,7 @@ torch
 xgboost
 joblib
 ipykernel
+gensim==4.3.2
 pyLDAvis
 wordcloud
 matplotlib
