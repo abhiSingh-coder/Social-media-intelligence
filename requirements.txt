@@ -8,11 +8,9 @@ torch
 xgboost
 joblib
 ipykernel
-gensim
 pyLDAvis
 wordcloud
 matplotlib
 networkx
 plotly
 google-genai
-gensim==4.3.3
