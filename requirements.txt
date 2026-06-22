@@ -8,7 +8,6 @@ torch
 xgboost
 joblib
 ipykernel
-pyLDAvis
 wordcloud
 matplotlib
 networkx
