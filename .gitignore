@@ -30,6 +30,7 @@ data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/processed/sentiment140_sample.csv
 
 # Trained models (can be large binary files)
 trained_models/*.pkl
@@ -37,6 +38,11 @@ trained_models/*.joblib
 trained_models/*.pt
 trained_models/*.h5
 !trained_models/.gitkeep
+!trained_models/fake_news_classifier.pkl
+!trained_models/fake_news_vectorizer.pkl
+!trained_models/lda_model_sklearn.pkl
+!trained_models/lda_vectorizer_sklearn.pkl
+!trained_models/lda_topic_labels.pkl
 
 # Hugging Face model cache (if downloaded locally instead of system cache)
 .cache/
@@ -53,4 +59,3 @@ Thumbs.db
 
 # Logs
 *.log
-*.doc
